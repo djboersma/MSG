@@ -19,9 +19,9 @@ def get_args():
 
     parser = argparse.ArgumentParser(
          description=description,
-         epilog="The default behavior is the one described in the assignment.")
+         epilog="The default behavior (runing without any options) is the one described in the assignment.")
 
-    parser.add_argument('-c','--config',default="default.json",help="Config file for the simulation (in config folder).")
+    parser.add_argument('-c','--config',default="default.json",help="Config filename for the simulation (it should be found in the config folder; specify only the filename *without* directory path).")
     parser.add_argument('-S','--time_step_seconds',type=float,default=1.0,help="Scanning time step [seconds].")
     parser.add_argument('-v','--verbose',default=False,action='store_true',help="More output.")
     args=parser.parse_args()
