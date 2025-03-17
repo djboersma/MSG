@@ -1,0 +1,31 @@
+This application runs a simulation of a Patriot Air Defense System.
+The simulated platforms (inbound aircraft, air defense systems)
+should be part of a simulation environment where *multiple* such
+systems of similar type. In this current simulation we will have just
+one radar, IFF and firing unit, but it should be easy to add several,
+potentially of different kinds.
+
+The current task is to "add" a model for the patriot air defense system,
+which consists of a radar, IFF and FU.
+
+The code should be clean and readable, as the simulation may be extended
+in the future by someone other than me.
+
+In a normal development situation, I would discuss with the product owner
+or with stakeholders to learn more about the environment in which my code
+will be used, and in which ways my code should be extendible. In the artificial
+context of this code assignment I'll need to make assumptions about this
+and pray that my assumptions seem reasonable to the evaluators of this test.
+
+I'll assume that the environment is a general purpose computer (laptop,
+desktop) with a vanilla Python installation.  The assignment mentions a
+console, so that is the user interface that I will assume for now.
+
+The extendibility requirements, based on my very naive military imagination,
+include:
+
+* It should be easy to experiment with different radar implementations. The current one delivers strangely sparse output.
+* It should be easy to experiment with different IFF implementations. The current one is kind of dumb. Most of the time there is nothing in the sky, there may also be multiple things in the sky.
+* It should be easy to experiment with different FU implementations.
+* It should be easy to simulate a group of patriot systems that should work efficiently together as a single air defense system.
+* It should be easy to use the output in other ways than printing it to the console.
