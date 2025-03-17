@@ -1,0 +1,19 @@
+{
+    "radar": {
+        "name": "CSV",
+        "options": {
+            "filename":"radar_data.csv"
+        }
+    },
+    "IFF": {
+        "name": "EvenOdd",
+        "options": {
+        }
+    },
+    "FiringUnit": {
+        "name": "PK",
+        "options": {
+            "Pk":0.8
+        }
+    }
+}

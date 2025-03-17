@@ -1,0 +1,21 @@
+{
+    "radar": {
+        "name": "CSV",
+        "options": {
+            "filename":"hexdata.csv",
+            "delim":"|",
+            "base":16
+        }
+    },
+    "IFF": {
+        "name": "EvenOdd",
+        "options": {
+        }
+    },
+    "FiringUnit": {
+        "name": "PK",
+        "options": {
+            "Pk":0.4
+        }
+    }
+}

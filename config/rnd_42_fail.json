@@ -1,0 +1,21 @@
+{
+    "radar": {
+        "name": "RND",
+        "options": {
+            "nrows":30,
+            "ncols":21,
+            "low":0,
+            "high":50
+        }
+    },
+    "IFF": {
+        "name": "FortyTwo",
+        "options": {
+        }
+    },
+    "FiringUnit": {
+        "name": "FAIL",
+        "options": {
+        }
+    }
+}
