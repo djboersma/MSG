@@ -14,3 +14,9 @@ On a technical level the assignment is frighteningly simple. It's like applying
 to be a cook in a prestigious restaurant and they ask you to fry an egg.
 So in this project I am frying an egg and hope that my performance is conforming
 to the desired standards of the restaurant.
+
+Requirements: your system should have a Python installation that is newer than
+version 3.4. The 'numpy' module is assumed to be installed.
+
+To run 'the application', please clone this project on your device, change into
+the project directory and run the `pads_simulation.py` python script.
